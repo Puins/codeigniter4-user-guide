@@ -129,7 +129,7 @@
 
 	:param	string	$source_dir: 目录路径
 	:param	bool|null	$include_path: 是否在文件名中包含路径；false为不包含，null为$source_dir的相对路径，true为全路径
-	:param	bool	$hidden: Whether to include hidden files (files beginning with a period)
+	:param	bool	$hidden: 是否包含隐藏文件（以句点开头的文件）
 	:returns:	文件名数组
 	:rtype:	array
 
