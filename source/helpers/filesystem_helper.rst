@@ -128,7 +128,8 @@
 .. php:function:: get_filenames($source_dir[, $include_path = FALSE])
 
 	:param	string	$source_dir: 目录路径
-	:param	bool	$include_path: 是否在文件名中包含路径
+	:param	bool|null	$include_path: 是否在文件名中包含路径；false为不包含，null为$source_dir的相对路径，true为全路径
+	:param	bool	$hidden: Whether to include hidden files (files beginning with a period)
 	:returns:	文件名数组
 	:rtype:	array
 
