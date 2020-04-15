@@ -40,7 +40,7 @@ URI 路由
 
     $routes->add('product/(:num)', 'App\Catalog::productLookup');
 
-在路由中，第一个参数包含要匹配的URI，而第二个参数包含应重新路由到的目标。在上面的示例中，如果在URL的第一段中找到单词“product”，而在第二段中找到数字，则使用"App\\Catalog"类和"productLookup"方法代替。
+在路由中，第一个参数包含要匹配的URI，而第二个参数包含应重新路由到的目标。在上面的示例中，如果在URL的第一段中找到单词“product”，而在第二段中找到数字，则使用 **App\\Catalog** 类和 **productLookup** 方法代替。
 
 通配符只是代表正则表达式模式的字符串。在路由过程中，这些通配符将替换为正则表达式的值。它们主要用于可读性。
 

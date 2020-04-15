@@ -11,10 +11,10 @@
 
   <div class="custom-index container"></div>
 
-加载此辅助函数
+加载辅助函数
 ===================
 
-使用以下代码加载此辅助函数::
+使用以下代码加载辅助函数::
 
 	helper('number');
 
@@ -23,10 +23,10 @@
 
 如果PHP的国际化和本地化逻辑无法处理对于给定的语言环境和选项提供的值， 则将抛出 ``BadFunctionCallException()`` 异常。
 
-可用功能
+可用函数
 ===================
 
-以下功能可用：
+该辅助函数有下列可用函数：
 
 .. php:function:: number_to_size($num[, $precision = 1[, $locale = null])
 

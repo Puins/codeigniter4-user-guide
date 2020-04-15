@@ -11,17 +11,17 @@ Date 辅助函数文件包含协助使用Date的功能。
 
   <div class="custom-index container"></div>
 
-加载此辅助函数
+加载辅助函数
 ===================
 
-使用以下代码加载此辅助函数::
+使用以下代码加载辅助函数::
 
 	helper('date');
 
-可用功能
+可用函数
 ===================
 
-以下功能可用：
+该辅助函数有下列可用函数：
 
 .. php:function:: now([$timezone = NULL])
 

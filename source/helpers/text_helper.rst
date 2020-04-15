@@ -11,17 +11,17 @@ Text 辅助函数包含协助处理文本的功能。
 
   <div class="custom-index container"></div>
 
-加载此辅助函数
+加载辅助函数
 ===================
 
-使用以下代码加载此辅助函数::
+使用以下代码加载辅助函数::
 
 	helper('text');
 
-可用功能
+可用函数
 ===================
 
-以下功能可用：
+该辅助函数有下列可用函数：
 
 .. php:function:: random_string([$type = 'alnum'[, $len = 8]])
 

@@ -7,17 +7,17 @@
 .. contents::
     :local:
 
-加载此辅助函数
+加载辅助函数
 ===================
 
-使用以下代码加载此辅助函数::
+使用以下代码加载辅助函数::
 
 	helper('array');
 
-可用功能
+可用函数
 ===================
 
-以下功能可用：
+该辅助函数有下列可用函数：
 
 ..  php:function:: dot_array_search(string $search, array $values)
 

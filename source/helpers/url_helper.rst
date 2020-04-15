@@ -11,15 +11,15 @@ URL 辅助函数文件包含协助使用URL的功能。
 
   <div class="custom-index container"></div>
 
-加载此辅助函数
+加载辅助函数
 ===================
 
 框架会在每次请求时自动加载该辅助函数。
 
-可用功能
+可用函数
 ===================
 
-以下功能可用：
+该辅助函数有下列可用函数：
 
 .. php:function:: site_url([$uri = ''[, $protocol = NULL[, $altConfig = NULL]]])
 
